@@ -1,0 +1,45 @@
+Expressões Boleanas
+
+Retornam a expresão True or False
+> Maior que
+< Menor que
+>= Maior ou igual
+<= Menor ou igual
+== Igual
+!= Diferente
+Obs. No Python as letras são Sensitive Case, ou seja, faz diferença entre mínnusculas e maiúsculas
+
+CONECTIVOS LOGICOS -> and (e) or (ou)
+and-> quando os valores assumido forem todos Verdadeiros
+or -> Qaundo apenas um valor assumido é Verdadeiro
+
+MÉTODOS
+lower() -> todas letras minusculas
+upper() -> todas as letras em maíusculas
+capitalize() -> Apenas a primeira letra fica maiúsccula
+
+ESTRUTURAS DE DECISÕES OU CONDIÇIONAIS
+
+CONDICIONAL SIMPLES -> SE...
+
+if Condicão:
+  resultado se condição satisfeita
+resultado sempre acontece
+
+CONDICIONAL COMPOSTA -> SE... ENTÃO...
+
+if Condicional:
+  resultado se condição satisfeita
+else:
+  resultado caso condição NÃO Satisfeita
+
+CONDIÇÃO COMPOSTA ANINHADA -> SE... SENÃO...  ENTÃO...
+
+if condição1:
+    resultado da condição 1
+elif condição 2:
+    resultado da condição 2
+else:
+    resultado caso nao satisfaça nenhuma das condições anteriores
+
+OBS. Pode haver quantos elif forem necessário
